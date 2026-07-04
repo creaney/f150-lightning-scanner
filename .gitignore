@@ -1,0 +1,43 @@
+# State and personal data -- never commit these
+seen-listings.json
+reports/
+
+# Development session artifacts
+claude-code-hotfix-*.md
+session-handoff.md
+HANDOFF.md
+negotiation-agent-prompt.md
+SETUP-INSTRUCTIONS.md
+GITHUB-SETUP.md
+scanner_original.py
+backups/
+rebuild/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Playwright browser downloads
+.playwright/
